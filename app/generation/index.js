@@ -4,7 +4,7 @@ const {REFRESH_RATE, SECONDS,} = require('../config')
 const refreshRate = REFRESH_RATE * SECONDS
 class Generation{
     constructor(){
-     this.expration = this.calculateExpiration()
+     this.expiration = this.calculateExpiration()
     }
 
     calculateExpiration(){
