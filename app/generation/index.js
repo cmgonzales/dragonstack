@@ -20,7 +20,7 @@ class Generation{
     }
 
     newDragon(){
-        if (Date.now() > this.expration){
+        if (Date.now() > this.expiration){
             throw new Error(`This generation expired on ${this.expriration}`);
         }
         return new Dragon()

@@ -1,3 +1,5 @@
+//storing expiration from generation sql
+
 const pool = require('../../databasePool')
 
 class GenerationTable{
